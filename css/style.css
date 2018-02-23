@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    margin: 10pt;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #005fc3;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li a:hover {
+    background-color: #111111;
+}
+
+footer {
+    margin: 15pt;
+    color: #979797;
+}
+
+div#content {
+    margin: 5pt;
+    min-height: 300px;
+    padding: 20px;
+}
+
+img.preview {
+    max-width: 210px;
+    min-width: 100px;
+}
+
+label.error, p.error {
+    color: #e75555;
+}
+
+.correct {
+    color: #4cd34c;
+}
+
+table.videos {
+    color: #b4b4b4;
+    max-width: 80%;
+}
+
+table td {
+    color: #5a5a5a;
+}
+
+video.player {
+    max-width: 85%;
+    margin: 10pt;
+}
+
+img.logo {
+    float: left;
+}
+
+div.title {
+    font-size: 20pt;
+    margin-bottom: -10pt;
+    margin-top: -15pt;
+}
+
+div.below-video {
+    margin: 15pt;
+}
+
+img.avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.form-signin {
+    max-width: 480pt;
+    min-width: 250pt;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
