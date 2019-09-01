@@ -24,7 +24,7 @@ if (!$statement) {
 
         echo "<td>";
         echo "<a href='video.php?id=".$row[VIDEO_ID]."'><div class='title'>".$row[VIDEO_NAME]."</div></a><br>";
-        echo "por <a href='user.php?id=".$row[USER_ID]."'>".$row[USER_NAME]."</a> el ".$app->formatDate($row[VIDEO_UPLOAD]);
+        echo "por <a href='user.php?id=".$row[USER_ID]."'>".$row[USER_NAME]."</a> <div class='upload-date'>el ".$app->formatDate($row[VIDEO_UPLOAD])."</div>";
         echo "</td>";
         
         echo "</tr>";

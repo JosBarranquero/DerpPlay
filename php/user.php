@@ -41,7 +41,7 @@ if (!$statement) {
 
             echo "<td>";
             echo "<a href='video.php?id=".$row[VIDEO_ID]."'><div class='title'>".$row[VIDEO_NAME]."</div></a><br>";
-            echo "subido el ".$app->formatDate($row[VIDEO_UPLOAD]);
+            echo "<div class='upload-date'>Subido el ".$app->formatDate($row[VIDEO_UPLOAD])."</div>";
             echo "</td>";
             
             echo "</tr>";

@@ -7,8 +7,8 @@ if ($app->isLogged())
     header('Location: main.php');
 $app->head('Inicio de sesión');
 $app->nav();
-echo "<script src=\"../js/jquery.validate.min.js\"></script>
-<script src=\"../js/login.js\"></script>
+echo "<script src='../js/jquery.validate.min.js'></script>
+<script src='../js/login.js'></script>
 <center>";
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $res = 0;

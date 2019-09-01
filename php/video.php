@@ -29,7 +29,7 @@ if (!$statement) {
     echo "<div class='title'>".$video[VIDEO_NAME]."</div><br/>";
     echo "<a href=user.php?id='".$video[USER_ID]."'>";
     echo "<img src='".$video[USER_IMG]."' alt='Avatar de ".$video[USER_NAME]."' class='avatar'/>".$video[USER_NAME]."</a><br/>";
-    echo "Subido el ".$app->formatDate($video[VIDEO_UPLOAD])."<br/>";
+    echo "<div class='upload-date'>Subido el ".$app->formatDate($video[VIDEO_UPLOAD])."</div><br/>";
     echo "<p class='description'>".$video[VIDEO_DESC]."</p>";
     echo "</div>";
 }

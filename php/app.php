@@ -54,7 +54,7 @@ class App {
 
     function foot() {
         echo "</div>
-        <footer><p>BitBits, 2018</p></footer>
+        <footer><p>BitBits, ".date('Y')."</p></footer>
             </body>
         </html>";
     }

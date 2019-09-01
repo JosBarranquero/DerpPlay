@@ -6,9 +6,10 @@ if ($app->isLogged())
     header('Location: main.php');
 $app->head("Registro");
 $app->nav();
-echo "<script src=\"../js/jquery.validate.min.js\"></script>
-<script src=\"../js/register.js\"></script>
-<center>";
+/*echo "<script src='../js/jquery.validate.min.js'></script>
+<script src='../js/register.js'></script>
+<center>";*/
+echo "<center>";
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $res = 0;
     

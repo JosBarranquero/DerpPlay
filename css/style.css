@@ -34,7 +34,7 @@ nav li a:hover {
 
 footer {
     margin: 15pt;
-    color: #979797;
+    color: #8f8f8f;
 }
 
 div#content {
@@ -84,15 +84,24 @@ div.below-video {
     margin: 15pt;
 }
 
+
+div.upload-date {
+    color: #808080;
+}
+
 img.avatar {
     width: 48px;
     height: 48px;
 }
 
+p.description {
+    margin-top: 2pt;
+}
+
 .form-signin {
     max-width: 480pt;
-    min-width: 250pt;
-    padding: 15px;
+    min-width: 225pt;
+    padding: 5pt;
     margin: 0 auto;
 }
 
